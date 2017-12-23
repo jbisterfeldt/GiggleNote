@@ -28,7 +28,7 @@ GiggleNote is backed by something of value! I will tell you a joke in exchange f
 
 `cd GiggleNote`
 
-`make`
+`make` or alternately, `make j#` where # is number of threads to use
 
 Binaries will be available in GiggleNote/build/release/
 
