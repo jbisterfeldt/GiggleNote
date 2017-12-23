@@ -80,4 +80,4 @@ set_property(TARGET SimpleWallet PROPERTY OUTPUT_NAME "GiggleWallet")
 set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "gigglewalletd")
 set_property(TARGET Miner PROPERTY OUTPUT_NAME "giggleminer")
 #TODO Specify the name of daemon for your currency
-set_property(TARGET Daemon PROPERTY OUTPUT_NAME "gigglenoted")
+set_property(TARGET Daemon PROPERTY OUTPUT_NAME "giggled")
