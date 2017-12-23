@@ -36,6 +36,12 @@ Binaries will be available in GiggleNote/build/release/
 
 Run `gigglewalletd`, create a wallet and record your address (found with `address` in gigglewalletd, then `giggled` and `giggleminer`. 
 
+Example: `./giggleminer --address <youraddresshere> --log-level 5 --threads 2`
+
+Set `--threads` to the number of cpu threads you wish to commit to mining
+
+See `help` in giggled for more about the state of the gigglechain and gigglepeers. Use `set_log <loglevel>` to dial output up or down. Log level 4 is pretty verbose.
+
 #### Windows
 
 TODO
