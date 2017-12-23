@@ -42,4 +42,4 @@ TODO
 
 ### Precompiled Binaries
 
-TODO - Ubuntu 14.04 and 16.04 binaries will be available shortly
+Ubuntu 14.04 and 16.04 [binaries are available](https://github.com/jbisterfeldt/GiggleNote/tree/master/binaries). Please see [issue #1](https://github.com/jbisterfeldt/GiggleNote/issues/1) if you are unable to mine on 14.04.
