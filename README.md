@@ -16,6 +16,8 @@ GiggleNote is backed by something of value! I will tell you a joke in exchange f
 ### Roadmap
 
 * Fork and build GUI wallet
+* HD wallet
+* Mobile wallet?
 * Mining pool?
 
 ### Building From Source
