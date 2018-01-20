@@ -44,6 +44,8 @@ Set `--threads #` to the number of cpu threads you wish to commit to mining. Gig
 
 See `help` in giggled for more about the state of the gigglechain and gigglepeers. Use `set_log <loglevel>` to dial output up or down. Log level 4 is pretty verbose.
 
+Bug bounties paid in GN for reporting and confirming issues!
+
 #### Windows
 
 TODO
