@@ -34,11 +34,17 @@ GiggleNote is backed by something of value! I will tell you a joke in exchange f
 
 Binaries will be available in `GiggleNote/build/release/src` cd <path> to make the magic happen.
 
+Super easyish mode:
+
+Run `./giggled` and `set_log 4` for lots of noise about the blockchain sync
+
+Then, in another terminal (tmux/screen ftw!), run `GiggleWallet` then `G` to generate a new wallet, set the wallet name and a crypto-strong password (read: really effing good), and once `giggled` has synced, `start_mining <threads>`, replacing <threads> with a number, e.g. `start_mining 2`.
+
+If you really want to do things the hard way...
+
 Run `./GiggleWallet`, create a wallet and record your address, (found with `address` in GiggleWallet, then `gigglewalletd container-file <walletname.bin.wallet> container-password <yourpasswordhere>` (without <> characters) and then `./giggled` and `./giggleminer`. Run `chmod +x <filename>` for any execute permission errors. 
 
 Example: `./giggleminer --address <youraddresshere> --log-level 5 --threads 2`
-
-Recommended: instead of running `giggleminer`, use `giggled` and `GiggleWallet` instead. GiggleWallet will ask you to open your wallet, then you can start mining with `start_mining <# threads>`. Set the number of threads to your system's logical cores minus 1. For a hyperthreading quad-core, start with `start_mining 7` if you want to use the system while it mines, or `start_mining 8` if you wish to dedicate all CPU resources to mining.
 
 Set `--threads #` to the number of cpu threads you wish to commit to mining. Giggletoshi commits a single thread at around 60h/s.
 
