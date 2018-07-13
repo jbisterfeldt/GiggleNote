@@ -46,7 +46,7 @@ Run `./GiggleWallet`, create a wallet and record your address, (found with `addr
 
 Example: `./giggleminer --address <youraddresshere> --log-level 5 --threads 2`
 
-Set `--threads #` to the number of cpu threads you wish to commit to mining. Giggletoshi commits a single thread at around 60h/s.
+Set `--threads #` to the number of cpu threads you wish to commit to mining. ~~Giggletoshi commits a single thread at around 60h/s.~~ No longer mining, and seed nodes have been shut down. Open an issue if you need the original seed nodes up.
 
 See `help` in giggled for more about the state of the gigglechain and gigglepeers. Use `set_log <loglevel>` to dial output up or down. Log level 4 is pretty verbose.
 
